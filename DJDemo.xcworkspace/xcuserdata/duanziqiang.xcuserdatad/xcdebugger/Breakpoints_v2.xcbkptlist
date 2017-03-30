@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DJDemo/ViewController.m"
-            timestampString = "512573443.412813"
+            timestampString = "512579828.9057"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "-query"
             landmarkType = "7">
          </BreakpointContent>

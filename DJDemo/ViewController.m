@@ -79,7 +79,6 @@
         
         //realm
     }];
-
 }
 
 - (void)remove
@@ -91,10 +90,10 @@
         [realm beginWriteTransaction];
         
         //remove ALL
-        //[realm deleteAllObjects];
+        [realm deleteAllObjects];
         
         //remove one
-        [realm deleteObject:self.peron1];
+        //[realm deleteObject:self.peron1];
         
         [realm commitWriteTransaction];
         

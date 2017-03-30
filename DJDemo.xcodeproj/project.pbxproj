@@ -17,6 +17,7 @@
 		7B6EF87F1E821EFA00BFB8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6EF87D1E821EFA00BFB8BC /* Main.storyboard */; };
 		7B6EF8811E821EFA00BFB8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6EF8801E821EFA00BFB8BC /* Assets.xcassets */; };
 		7B6EF8841E821EFA00BFB8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6EF8821E821EFA00BFB8BC /* LaunchScreen.storyboard */; };
+		7B8978141E8D55B7003DEC16 /* RealmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8978131E8D55B7003DEC16 /* RealmManager.m */; };
 		F949CB1020F70189494CF51B /* libPods-DJDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0367C10970E398D5B81F89FC /* libPods-DJDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		7B6EF8801E821EFA00BFB8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6EF8831E821EFA00BFB8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B6EF8851E821EFA00BFB8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B8978121E8D55B7003DEC16 /* RealmManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealmManager.h; path = ../RealmManager.h; sourceTree = "<group>"; };
+		7B8978131E8D55B7003DEC16 /* RealmManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RealmManager.m; path = ../RealmManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 		7B2C4AE31E8629900080B9C6 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				7B8978121E8D55B7003DEC16 /* RealmManager.h */,
+				7B8978131E8D55B7003DEC16 /* RealmManager.m */,
 				7B56C2B31E8CEC300099588B /* UIControl+extension.h */,
 				7B56C2B41E8CEC300099588B /* UIControl+extension.m */,
 				7B56C2B71E8CEC300099588B /* UIView+extension.h */,
@@ -268,6 +273,7 @@
 				7B6EF87C1E821EFA00BFB8BC /* ViewController.m in Sources */,
 				7B56C2BC1E8CEC300099588B /* UIView+extension.m in Sources */,
 				7B56C2A11E8CDA6C0099588B /* DJPerson.m in Sources */,
+				7B8978141E8D55B7003DEC16 /* RealmManager.m in Sources */,
 				7B6EF8791E821EFA00BFB8BC /* AppDelegate.m in Sources */,
 				7B6EF8761E821EFA00BFB8BC /* main.m in Sources */,
 			);
