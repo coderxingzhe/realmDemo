@@ -31,31 +31,8 @@ typedef void(^clickBlockType)(UIView *view);
 
 
 
-
-#pragma mark - setup
-@property (nonatomic, strong) UICollectionView *collectionView;
-- (void)setupCollectionViewWithCell:(Class)class cellID:(NSString *)cellID;
-
-
 #pragma mark - getter view
-- (UIView *)myView;
-- (UILabel *)myLabel;
-- (UIButton *)myButton;
-- (UIImageView *)myImageView
-;
-- (UIStackView *)myStackView;
-- (UIStackView *)myStackViewOfVertical;
-- (UIStackView *)myStackViewOfHorizontal;
 
-//textFiled
-- (UITextField *)myTextFiledWithHolder:(NSString *)str fontNum:(int)Num textColor:(UIColor *)color borderStyle:(UITextBorderStyle )style;
-- (UITextField *)myTextFiledWithHolder:(NSString *)str fontNum:(int)Num borderStyle:(UITextBorderStyle )style;
-
-//label
-- (UILabel *)myLabelWithText:(NSString *)text;
-- (UILabel *)myLabelWithText:(NSString *)text fontNum:(int)num;
-- (UILabel *)myLabelWithText:(NSString *)text fontNum:(int)num textColor:(UIColor *) color;
-- (UILabel *)myLabelWithText:(NSString *)text fontNum:(int)num alignment:(NSTextAlignment) alignment textColor:(UIColor *) color;
 
 #pragma mark - getter frame
 @property CGFloat myWidth;

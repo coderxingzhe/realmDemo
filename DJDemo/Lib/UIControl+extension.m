@@ -19,10 +19,4 @@
 }
 
 
-- (RACDisposable *)rac_signalTouchUpInsideWithBlock:(void(^)(id x)) block
-{
-   return nil;
-   //return  [[self rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:block];
-}
-
 @end
